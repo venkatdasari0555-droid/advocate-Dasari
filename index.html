@@ -183,32 +183,18 @@
 <section id="contact">
   <h2>Client Consultation Form</h2>
   <p style="text-align:center;">📞 <strong>Contact:</strong> 9912842071 / 8247545074 &nbsp; | &nbsp; ✉️ <strong>Email:</strong> venkatdasari0555@gmail.com</p>
-  <form id="clientForm">
-    <label>Full Name</label>
-    <input type="text" required />
+  <form action="https://formspree.io/f/mykkdddn" method="POST">
 
-    <label>Phone Number</label>
-    <input type="tel" required />
+  <input type="text" name="name" placeholder="Your Name" required><br><br>
 
-    <label>Email Address</label>
-    <input type="email" />
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
 
-    <label>Type of Legal Issue</label>
-    <select required>
-      <option value="">-- Select --</option>
-      <option>Criminal</option>
-      <option>Civil</option>
-      <option>Family</option>
-      <option>Corporate</option>
-      <option>Other</option>
-    </select>
+  <textarea name="message" placeholder="Your Message" required></textarea><br><br>
 
-    <label>Brief Case Description</label>
-    <textarea rows="5" required></textarea>
+  <button type="submit">Send Message</button>
 
-    <button type="submit" class="btn">Submit Details</button>
-    <p class="success" id="successMsg">Your details have been submitted successfully. We will contact you soon.</p>
-  </form>
+</form>
+
 </section>
 
 <footer>
@@ -228,4 +214,5 @@
 
 </body>
 </html>
+
 
